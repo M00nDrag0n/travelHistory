@@ -6,7 +6,7 @@
 body {
   font-family: 'Spectral';
   font-size: 22px;
-  background-color: #4e5f61;
+  background-color: #25333d;
   border-style: solid;
   border-color: #0c646e;
   border-width: 20px;
@@ -21,11 +21,130 @@ body {
   border-width: 10px;
 }
 
-#output {
+#output1 {
   border-right-color: #9bcad4;
   border-left-color: #9bcad4;
   border-top-color: #ccf7ff;
   border-bottom-color: black;
   border-style: solid;
   border-width: 10px;
+}
+
+#output2 {
+  border-right-color: #9bcad4;
+  border-left-color: #9bcad4;
+  border-top-color: #ccf7ff;
+  border-bottom-color: black;
+  border-style: solid;
+  border-width: 10px;
+}
+
+
+#littleRock {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  background-image: radial-gradient(lightgrey 20%, white 20%, lightgrey 30%, grey 10%, white, silver 15%, grey 20%, lightgrey 50%, white, lightgrey 10%, black, grey, black, lightgrey, black);
+  width: 150px;
+}
+
+
+button {
+  height: 50px;
+  width: 80px;
+}
+
+#berlin {
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  height: 50px;
+  margin: 1px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+#Berlin1 {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  width: 95px;
+  height: 71px;
+  padding-top: 5px;
+  margin-top: 2px;
+}
+
+#Berlin2 {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  width: 98px;
+  height: 75px;
+  padding-top: 4px;
+
+}
+
+#Berlin3 {
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  margin-top: 1px;
+  width: 100px;
+  height: 60px;
+
+}
+
+#berlin-border {
+  float: right;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  width: 110px;
+  height: 95px;
+
+}
+
+#russia {
+  height: 70px;
+  width: 100px;
+  border-style: solid;
+  border-width: 10px;
+  border-left-color: #d6eeff;
+  border-right-color: #d6eeff;
+  border-top-color: #ffffff;
+  border-bottom-color: #254d69;
+}
+
+#china {
+  height: 70px;
+  width: 100px;
+  border-style: solid;
+  border-width: 10px;
+  border-right-color: #e6b01e;
+  border-left-color:#f0ab18;
+  border-top-color: #f1fc1e;
+  border-bottom-color: #7d270f;
+}
+
+#hawaii {
+  height: 70px;
+  width: 100px;
+  border-style: solid;
+  border-width: 10px;
+  border-right-color: #baf018;
+  border-left-color:#1ae873;
+  border-top-color: #1ae8da;
+  border-bottom-color: #7d270f;
+}
+
+#australia {
+  height: 70px;
+  width: 100px;
+  border-style: solid;
+  border-width: 10px;
+  border-right-color: #bd8515;
+  border-left-color: #bd8515;
+  border-top-color: #f1fc1e;
+  border-bottom-color: #7d270f;
 }
