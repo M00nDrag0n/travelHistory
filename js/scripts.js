@@ -25,9 +25,6 @@ travelHistory.prototype.findLocation = function(id) {
   return false;
 }
 
-
-
-
 function Location(continent, country, city, season, landmarks, people) {
   this.continent = continent;
   this.country = country;
@@ -37,18 +34,16 @@ function Location(continent, country, city, season, landmarks, people) {
   this.people = people;
 }
 
+Location.prototype.sentence = function() {
+  return this.continent + ", " + this.country + ", " + this.city + ", " + this.season + ", " + this.landmarks + ", " + this.people;
+}
 
 var book1 = new travelHistory();
 var hawaii = new Location("North America", "Hawaii", "Maui", "Summer", "Tall Mountains, Oceans, Palm Trees, wildlife", "Bob, Crabby, John, BillyBobJoe, Sharry");
-
 var littleRock = new Location("North America", "Arkansas", "littleRock", "Winter", "Frustrating humans, Rocks, Some Trees, Occasional wildlife", "Just Crabby");
-
 var germany = new Location("Europe", "Germany", "Berlin", "Spring", "Tall Mountains, Castles, Churches, Meat", "Elvis, Michael, Jackson");
-
 var australia = new Location("Australia", "Australia", "The Outback", "Fall", "Kangaroos, Rivers, Nothingness", "Drake, Justin, Selena");
-
 var russia = new Location("Europe", "Russia", "Cheboksary", "Winter", "Tall Mountains, Snow, Churches, Pine Trees", "Putin, Jay-z, NF");
-
 var china = new Location("Asia", "China", "Suzhou", "Autumn", "Confucius Temple, Suzhou Silk Factory, Tea Shop", "Laura from Spain");
 
 
@@ -61,7 +56,7 @@ book1.addLocation(china);
 
 $(document).ready(function(){
   $("#hawaii").click(function(event){
-    
+
   });
   $("#russia").click(function(event){
 
